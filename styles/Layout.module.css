@@ -1,0 +1,13 @@
+                .Layout {
+                    height: 100vh;
+                }
+                
+                .Layout header {
+                    height: 10vh;
+                    position: fixed
+                }
+                
+                .Layout main {
+                    height: 100vh;
+                    overflow: hidden;
+                }

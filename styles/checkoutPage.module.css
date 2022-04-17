@@ -1,0 +1,94 @@
+.checkout {
+    background-image: url('bg3.jpg');
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.checkout button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: transparent;
+    color: green;
+    font-size: 30px;
+}
+
+.btnDiv {
+    margin-left: 40%;
+    display: flex;
+}
+
+.btnDiv1 {
+    margin-left: 0%;
+    display: flex;
+}
+
+.checkout .button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: transparent;
+    color: red;
+    font-size: 30px;
+}
+
+.form {
+    width: 60vw;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.form p {
+    font-size: 0px;
+}
+
+.form button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 36.5%;
+    color: green;
+    background-color: antiquewhite;
+}
+
+.formEl {
+    display: flex;
+    flex-direction: column;
+}
+
+.formEl p {
+    color: red;
+    font-size: 15px;
+}
+
+.formEl label {
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+.formEl input {
+    height: 30px;
+    width: 380px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.invalid label {
+    color: red;
+}
+
+.invalid input {
+    background-color: #ffeff1;
+    border: #aa0b20;
+}

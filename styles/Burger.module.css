@@ -1,0 +1,56 @@
+.Burger {
+    width: 100%;
+    margin: auto;
+    max-height: 40vh;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    align-items: center;
+    margin-top: 80px;
+    z-index: 500;
+}
+
+.Burger p {
+    font-size: 17px;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .Burger {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .Burger {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Burger {
+        width: 700px;
+        height: 600px;
+    }
+}
+
+.Burger::-webkit-scrollbar {
+    width: 4px;
+    /* width of the entire scrollbar */
+}
+
+.Burger::-webkit-scrollbar-track {
+    background: rgba(231, 96, 5, 0.4);
+    /* color of the tracking area */
+}
+
+.Burger::-webkit-scrollbar-thumb {
+    background-color: rgb(197, 85, 20);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 1px solid rgb(194, 102, 26);
+    /* creates padding around scroll thumb */
+}

@@ -1,0 +1,28 @@
+.CheckOutSummary {
+    text-align: center;
+    width: 80%;
+    margin: auto
+}
+
+.Button {
+    background-color: green;
+    padding: 20px;
+    border: 0;
+    border-radius: 13px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.Close {
+    background-color: rgb(241, 40, 40);
+    padding: 20px;
+    border: 0;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+@media(min-width:600px) {
+    .CheckOutSummary {
+        width: 500px
+    }
+}

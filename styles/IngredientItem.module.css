@@ -1,0 +1,77 @@
+.Item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.Item button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    width: 150px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+}
+
+.Item button:disabled {
+    background-color: #533f35;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.Item button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Label {
+    padding: 0 10px;
+    font-weight: bold;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Item .Less {
+    background-color: #D39952;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.Item .Less:disabled {
+    background-color: #c7c2c3;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888888;
+}
+
+.Item .More {
+    background-color: #8F5E1E;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.Item .Less:hover,
+.Item .Less:active {
+    background-color: #DAA972;
+    color: white;
+}
+
+.Item .More:hover,
+.Item .More:active {
+    background-color: #99703F;
+    color: white;
+}
+
+Item .More:active {
+    background-color: #99703F;
+    color: white;
+}
