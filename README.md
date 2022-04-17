@@ -1,7 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+this app takes the totality of everything i have learnt in react thus far. very simple to use. i built this with nextjs and was able to try my hands again on reduxtoolkit.
 
+the styling is mild as i gave less attention to the css. i hope to come back to the styling later in the fututre.
+
+i am getting better
+
+
+
+## Getting Started
 First, run the development server:
 
 ```bash
